@@ -4,8 +4,6 @@ const arg = process.argv
 const arg2 = process.argv[2]
 const num = arg2 - 1
 
-console.log(arg.length)
-
 if (arg.length !== 3) {
   console.log("Veuillez indiquer au script, qu'un seul argument")
 } else if (!isNaN(num)){
